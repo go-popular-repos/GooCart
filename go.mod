@@ -1,6 +1,6 @@
 module github.com/mohdjishin/GoCart
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/aws/aws-sdk-go v1.44.180
@@ -15,7 +15,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	github.com/stripe/stripe-go/v74 v74.6.0
 	github.com/twilio/twilio-go v1.3.1
-	golang.org/x/crypto v0.7.0
+	golang.org/x/crypto v0.52.0
 	gorm.io/driver/postgres v1.4.6
 	gorm.io/gorm v1.24.3
 )
@@ -59,7 +59,7 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.45.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
